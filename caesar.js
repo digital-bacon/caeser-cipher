@@ -16,7 +16,22 @@ Note: The Space character (" ") should not be shifted.
 */
 
 const encrypt = (string, shift) => {
-  // Code to follow
+  const input = string.split('');
+  let shifted = [];
+  input.map(character => {
+    shifted.push(getShiftedAlphaChar(character, shift));
+  });
+  return shifted;
 };
+
+const getShiftedAlphaChar = (inputCharacter, shift) => {
+  const charCode = inputCharacter.charCodeAt(0);
+  const shiftedCode = charCode + shift;
+  const shiftedChar = String.fromCharCode(shiftedCode);
+  return shiftedChar;
+}
+
+console.log(encrypt("e", -3)) // => b
+console.log(encrypt("b", 3)) // => e
 
 module.exports = { encrypt }
