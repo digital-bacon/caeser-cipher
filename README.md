@@ -7,5 +7,6 @@ A Caesar Cipher (or more simply known as a shift cipher) is one of the simplest 
 ### Example:
 
 *Caesar Cipher with a Left shift of 3*
-a	b	c	d	e	f	g	h	i	...
-x	y	z	a	b	c	d	e	f	...
+
+`a	b	c	d	e	f	g	h	i	...`<br>
+`x	y	z	a	b	c	d	e	f	...`
