@@ -92,7 +92,7 @@ const incrementWithinRange = (init, count = 0, min, max, wrapAround = false) => 
 };
 
 /**
- * Function that dacrements a number by a specified amount within a
+ * Function that decrements a number by a specified amount within a
  * defined range
  * @param {number} init - The initial value of the number to decrement
  * @param {number} count - The total to subtract from the number
